@@ -1,0 +1,12 @@
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Tests.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Tests.pdb
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\FluentValidator.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Domain.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Shared.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Domain.pdb
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Shared.pdb
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.dll
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.pdb

@@ -1,0 +1,16 @@
+C:\development\int\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.exe.config
+C:\development\int\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.exe
+C:\development\int\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.pdb
+C:\development\int\integre-back-end\src\Integre.Console\obj\Debug\Integre.Console.exe
+C:\development\int\integre-back-end\src\Integre.Console\obj\Debug\Integre.Console.pdb
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.exe.config
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.exe
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Console.pdb
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Domain.dll
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\FluentValidator.dll
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Shared.dll
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Domain.pdb
+C:\development\integre-back-end\src\Integre.Console\bin\Debug\Integre.Shared.pdb
+C:\development\integre-back-end\src\Integre.Console\obj\Debug\Integre.Console.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Console\obj\Debug\Integre.Console.exe
+C:\development\integre-back-end\src\Integre.Console\obj\Debug\Integre.Console.pdb
