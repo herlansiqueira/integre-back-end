@@ -1,0 +1,5 @@
+C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Infra.dll
+C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Infra.pdb
+C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.dll
+C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.pdb
