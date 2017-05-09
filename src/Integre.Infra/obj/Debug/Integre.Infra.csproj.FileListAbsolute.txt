@@ -7,9 +7,9 @@ C:\development\integre-back-end\src\Integre.Infra\bin\Debug\FluentValidator.dll
 C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Domain.dll
 C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Shared.dll
 C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Domain.pdb
+C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Shared.pdb
 C:\development\integre-back-end\src\Integre.Infra\bin\Debug\EntityFramework.xml
 C:\development\integre-back-end\src\Integre.Infra\bin\Debug\EntityFramework.SqlServer.xml
-C:\development\integre-back-end\src\Integre.Infra\bin\Debug\Integre.Shared.pdb
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.csprojResolveAssemblyReference.cache
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.dll
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.pdb

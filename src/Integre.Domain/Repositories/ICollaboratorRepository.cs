@@ -9,8 +9,8 @@ namespace Integre.Domain.Repositories
         Collaborator Get(Guid id);
         Collaborator GetByUsername(string username);
         GetCollaboratorCommandResult Get(string username);
-        void Save(Collaborator customer);
-        void Update(Collaborator customer);
+        void Save(Collaborator collaborator);
+        void Update(Collaborator collaborator);
         bool DocumentExists(string document);
     }
 }
