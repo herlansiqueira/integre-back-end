@@ -32,3 +32,5 @@ C:\development\integre-back-end\src\Integre.Infra\bin\Debug\EntityFramework.SqlS
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.csprojResolveAssemblyReference.cache
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.dll
 C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.pdb
+C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.Migrations.v1.resources
+C:\development\integre-back-end\src\Integre.Infra\obj\Debug\Integre.Infra.csproj.GenerateResource.Cache
