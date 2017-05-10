@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7328C37C-4C77-4676-8BBE-B247B7EFB2A0}</ProjectGuid>
+    <ProjectGuid>{AE611D99-7795-4A0A-8EC2-26CE221A9EA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Integre.Domain</RootNamespace>
@@ -32,7 +32,6 @@
   <ItemGroup>
     <Reference Include="FluentValidator, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FluentValidator.1.0.5\lib\net461\FluentValidator.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -40,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Handlers\CollaboratorCommandHandler.cs" />
+    <Compile Include="Commands\Inputs\AuthenticateUserCommand.cs" />
     <Compile Include="Commands\Inputs\RegisterCollaboratorCommand.cs" />
     <Compile Include="Commands\Results\GetCollaboratorCommandResult.cs" />
     <Compile Include="Commands\Results\RegisterCollaboratorCommandResult.cs" />
@@ -60,12 +60,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Integre.Shared\Integre.Shared.csproj">
-      <Project>{6687096e-5809-42c8-9447-9a3a25034c5a}</Project>
+      <Project>{ebcf0559-739c-459d-ad6c-2bdac7355ff4}</Project>
       <Name>Integre.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -75,11 +78,4 @@
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  -->
 </Project>
