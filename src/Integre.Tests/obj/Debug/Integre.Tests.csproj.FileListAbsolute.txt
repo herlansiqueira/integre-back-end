@@ -10,3 +10,15 @@ C:\development\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.T
 C:\development\src\Integre.Tests\obj\Debug\Integre.Tests.csprojResolveAssemblyReference.cache
 C:\development\src\Integre.Tests\obj\Debug\Integre.Tests.dll
 C:\development\src\Integre.Tests\obj\Debug\Integre.Tests.pdb
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Tests.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Integre.Tests.pdb
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.dll
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.pdb

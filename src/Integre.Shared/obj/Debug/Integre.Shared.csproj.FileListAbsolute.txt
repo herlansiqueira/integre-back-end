@@ -3,3 +3,9 @@ C:\development\src\Integre.Shared\bin\Debug\Integre.Shared.pdb
 C:\development\src\Integre.Shared\bin\Debug\FluentValidator.dll
 C:\development\src\Integre.Shared\obj\Debug\Integre.Shared.dll
 C:\development\src\Integre.Shared\obj\Debug\Integre.Shared.pdb
+C:\development\integre-back-end\src\Integre.Shared\bin\Debug\Integre.Shared.dll
+C:\development\integre-back-end\src\Integre.Shared\bin\Debug\Integre.Shared.pdb
+C:\development\integre-back-end\src\Integre.Shared\bin\Debug\FluentValidator.dll
+C:\development\integre-back-end\src\Integre.Shared\obj\Debug\Integre.Shared.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Shared\obj\Debug\Integre.Shared.dll
+C:\development\integre-back-end\src\Integre.Shared\obj\Debug\Integre.Shared.pdb
