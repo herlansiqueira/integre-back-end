@@ -1,0 +1,10 @@
+C:\development\integre-back-end\src\Integre.Domain\bin\Release\Integre.Domain.dll
+C:\development\integre-back-end\src\Integre.Domain\bin\Release\Integre.Domain.pdb
+C:\development\integre-back-end\src\Integre.Domain\bin\Release\FluentValidator.dll
+C:\development\integre-back-end\src\Integre.Domain\bin\Release\Integre.Shared.dll
+C:\development\integre-back-end\src\Integre.Domain\bin\Release\Integre.Shared.pdb
+C:\development\integre-back-end\src\Integre.Domain\obj\Release\Integre.Domain.csprojResolveAssemblyReference.cache
+C:\development\integre-back-end\src\Integre.Domain\obj\Release\Integre.Domain.Resources.EmailTemplates.resources
+C:\development\integre-back-end\src\Integre.Domain\obj\Release\Integre.Domain.csproj.GenerateResource.Cache
+C:\development\integre-back-end\src\Integre.Domain\obj\Release\Integre.Domain.dll
+C:\development\integre-back-end\src\Integre.Domain\obj\Release\Integre.Domain.pdb

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANItX6qvY4EKBXq3p+wrAPAAAAAACAAAAAAAQZgAAAAEAACAAAAAB0Al/F+rMO1IK08CT6X3PrTJeBAWzGBbzOITH+S8/PQAAAAAOgAAAAAIAACAAAAD+Zoro1KmQRt9Hsb4SUTHUNt6aO1qi/JG7ugDIF7YupIAAAABOQFWTrQzfryr79XEEKoR3g5GwLWFFDkOJdV7K+tqsOydAjCIxXku2wEjcZBJd3TYd6uPK3sh7W2wKn7l73PdqvEuTcxlZFYX6n1IdkIgeJHa6o03GkxTF4Puyr2G9e8dtYas7rfIC4J5WbyBzEr6vTKyxhJIWRzvUNHqpQyLzT0AAAACzWaAnsrudIGJL1hDlaETqhLMp3TgFXL4IaywGG1W5bKPo3RKw6XOVlbnxOYx8maXeIldliJwzCEv/p/EpgUW9</EncryptedPassword>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="connection">
+      <Value>Server=tcp:integre-server.database.windows.net,1433;Initial Catalog=integre;Persist Security Info=False;User ID=integre;Password=!devel58;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
