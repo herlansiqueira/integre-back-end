@@ -8,6 +8,7 @@ using System;
 using System.Data.Entity;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace Integre.Infra.Repositories
 {
@@ -82,5 +83,14 @@ namespace Integre.Infra.Repositories
             }
         }
 
+        public IEnumerable<GetCollaboratorCommandResult> Get()
+        {
+            var query = "SELECT [Name_FirstName] FROM [Collaborator]";
+            using (var conn = new SqlConnection(Runtime.ConnectionString))
+            {
+                conn.Open();
+                return conn.Query<GetCollaboratorCommandResult>(query);
+            }
+        }
     }
 }

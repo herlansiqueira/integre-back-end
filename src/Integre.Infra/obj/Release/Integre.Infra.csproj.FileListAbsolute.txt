@@ -17,3 +17,4 @@ C:\development\integre-back-end\src\Integre.Infra\obj\Release\Integre.Infra.Migr
 C:\development\integre-back-end\src\Integre.Infra\obj\Release\Integre.Infra.csproj.GenerateResource.Cache
 C:\development\integre-back-end\src\Integre.Infra\obj\Release\Integre.Infra.dll
 C:\development\integre-back-end\src\Integre.Infra\obj\Release\Integre.Infra.pdb
+C:\development\integre-back-end\src\Integre.Infra\obj\Release\Integre.Infra.Migrations.v2.resources
