@@ -21,3 +21,4 @@ C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStud
 C:\development\integre-back-end\src\Integre.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.dll
 C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.pdb
+C:\development\integre-back-end\src\Integre.Tests\obj\Debug\Integre.Tests.csprojResolveAssemblyReference.cache
