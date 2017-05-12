@@ -32,7 +32,8 @@ namespace Integre.Api.Controllers
 
         [HttpGet]
         [Route("v1/getcollaborators")]
-        [AllowAnonymous]
+        //[AllowAnonymous]
+        [Authorize(Policy = "Admin")]
         public IActionResult Get()
         {
             return Ok(_repository.Get());

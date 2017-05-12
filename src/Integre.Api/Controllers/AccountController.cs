@@ -123,6 +123,7 @@ namespace Integre.Api.Controllers
             return Task.FromResult(new ClaimsIdentity(
                 new GenericIdentity(collaborator.User.Username, "Token"),
                 new[] {
+                    new Claim("Integre", "Admin"),
                     new Claim("Integre", "User")
                 }));
         }
