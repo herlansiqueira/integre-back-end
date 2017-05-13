@@ -67,8 +67,10 @@ namespace Integre.Api
             services.AddScoped<DataContext, DataContext>();
             services.AddTransient<IUow, Uow>();
             services.AddTransient<ICollaboratorRepository, CollaboratorRepository>();
+            services.AddTransient<IRolesRepository, RolesRepository>();
             services.AddTransient<IEmailService, EmailService>();
             services.AddTransient<CollaboratorCommandHandler, CollaboratorCommandHandler>();
+            services.AddTransient<RolesCommandHandler, RolesCommandHandler>();
 
         }
 

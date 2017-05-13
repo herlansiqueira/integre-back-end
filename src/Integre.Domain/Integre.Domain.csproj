@@ -39,15 +39,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\Handlers\CollaboratorCommandHandler.cs" />
+    <Compile Include="Commands\Handlers\RolesCommandHandler.cs" />
     <Compile Include="Commands\Inputs\AuthenticateUserCommand.cs" />
     <Compile Include="Commands\Inputs\RegisterCollaboratorCommand.cs" />
+    <Compile Include="Commands\Inputs\RegisterRolesCommand.cs" />
+    <Compile Include="Commands\Results\AnyMessageCommandResult.cs" />
     <Compile Include="Commands\Results\GetCollaboratorCommandResult.cs" />
+    <Compile Include="Commands\Results\GetRolesCommandResult.cs" />
     <Compile Include="Commands\Results\RegisterCollaboratorCommandResult.cs" />
     <Compile Include="Entities\Collaborator.cs" />
+    <Compile Include="Entities\Roles.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Enums\ECollaboratorStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICollaboratorRepository.cs" />
+    <Compile Include="Repositories\IRolesRepository.cs" />
     <Compile Include="Resources\EmailTemplates.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

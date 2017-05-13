@@ -13,7 +13,7 @@ namespace Integre.Infra.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201705101757330_v1"; }
+            get { return "201705121942526_v1"; }
         }
         
         string IMigrationMetadata.Source

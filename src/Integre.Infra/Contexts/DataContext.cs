@@ -15,11 +15,13 @@ namespace Integre.Infra.Contexts
         }
 
         public DbSet<Collaborator> collaborators { get; set; }
+        public DbSet<Roles> roles { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new CollaboratorMapping());
             modelBuilder.Configurations.Add(new UserMapping());
+            modelBuilder.Configurations.Add(new RolesMapping());
         }
     }
 }

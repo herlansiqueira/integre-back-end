@@ -33,12 +33,23 @@ namespace Integre.Infra.Migrations
                     })
                 .PrimaryKey(t => t.Id);
             
+            CreateTable(
+                "dbo.Roles",
+                c => new
+                    {
+                        Id = c.Guid(nullable: false),
+                        Code = c.String(nullable: false, maxLength: 10),
+                        Description = c.String(nullable: false, maxLength: 100),
+                    })
+                .PrimaryKey(t => t.Id);
+            
         }
         
         public override void Down()
         {
             DropForeignKey("dbo.Collaborator", "User_Id", "dbo.User");
             DropIndex("dbo.Collaborator", new[] { "User_Id" });
+            DropTable("dbo.Roles");
             DropTable("dbo.User");
             DropTable("dbo.Collaborator");
         }
