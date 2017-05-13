@@ -85,7 +85,7 @@ namespace Integre.Infra.Repositories
 
         public IEnumerable<GetCollaboratorCommandResult> Get()
         {
-            var query = "SELECT [Id], [Name_FirstName], [Name_LastName], [Email_Address], [Document_Number], [User_Id] FROM [Collaborator]";
+            var query = "SELECT * FROM [GetCollaboratorInfoView]";
             using (var conn = new SqlConnection(Runtime.ConnectionString))
             {
                 conn.Open();

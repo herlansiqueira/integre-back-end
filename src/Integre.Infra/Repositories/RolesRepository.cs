@@ -64,14 +64,14 @@ namespace Integre.Infra.Repositories
 
         public GetRolesCommandResult Get(string code)
         {
-            var query = "SELECT * FROM [Roles] WHERE [Code] = @code";
+            var query = "SELECT  [Id] ,[Code] ,[Description] FROM [Roles] WHERE [Code] = @code";
 
             using (var conn = new SqlConnection(Runtime.ConnectionString))
             {
                 conn.Open();
                 return conn
                     .Query<GetRolesCommandResult>(query,
-                    new { username = code })
+                    new { Code = code })
                     .FirstOrDefault();
             }
         }

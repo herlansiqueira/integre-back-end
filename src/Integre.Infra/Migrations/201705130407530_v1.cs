@@ -34,6 +34,18 @@ namespace Integre.Infra.Migrations
                 .PrimaryKey(t => t.Id);
             
             CreateTable(
+                "dbo.UserRoles",
+                c => new
+                    {
+                        Id = c.Guid(nullable: false),
+                        RolesCode = c.String(nullable: false, maxLength: 10),
+                        User_Id = c.Guid(),
+                    })
+                .PrimaryKey(t => t.Id)
+                .ForeignKey("dbo.User", t => t.User_Id)
+                .Index(t => t.User_Id);
+            
+            CreateTable(
                 "dbo.Roles",
                 c => new
                     {
@@ -48,8 +60,11 @@ namespace Integre.Infra.Migrations
         public override void Down()
         {
             DropForeignKey("dbo.Collaborator", "User_Id", "dbo.User");
+            DropForeignKey("dbo.UserRoles", "User_Id", "dbo.User");
+            DropIndex("dbo.UserRoles", new[] { "User_Id" });
             DropIndex("dbo.Collaborator", new[] { "User_Id" });
             DropTable("dbo.Roles");
+            DropTable("dbo.UserRoles");
             DropTable("dbo.User");
             DropTable("dbo.Collaborator");
         }

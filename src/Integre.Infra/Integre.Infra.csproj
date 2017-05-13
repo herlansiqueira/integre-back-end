@@ -57,9 +57,10 @@
     <Compile Include="Mappings\RolesMapping.cs" />
     <Compile Include="Mappings\UserMapping.cs" />
     <Compile Include="Mappings\CollaboratorMapping.cs" />
-    <Compile Include="Migrations\201705121942526_v1.cs" />
-    <Compile Include="Migrations\201705121942526_v1.Designer.cs">
-      <DependentUpon>201705121942526_v1.cs</DependentUpon>
+    <Compile Include="Mappings\UserRolesMapping.cs" />
+    <Compile Include="Migrations\201705130407530_v1.cs" />
+    <Compile Include="Migrations\201705130407530_v1.Designer.cs">
+      <DependentUpon>201705130407530_v1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -84,8 +85,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705121942526_v1.resx">
-      <DependentUpon>201705121942526_v1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201705130407530_v1.resx">
+      <DependentUpon>201705130407530_v1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

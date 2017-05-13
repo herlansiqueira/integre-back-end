@@ -1,4 +1,5 @@
 ﻿using Integre.Shared.Commands;
+using System.Collections.Generic;
 
 namespace Integre.Domain.Commands.Inputs
 {
@@ -11,5 +12,6 @@ namespace Integre.Domain.Commands.Inputs
         public string Username { get; set; }
         public string Password { get; set; }
         public string ConfirmPassword { get; set; }
+        public IEnumerable<RegisterUserRolesCommand> UserRoles { get; set; }
     }
 }

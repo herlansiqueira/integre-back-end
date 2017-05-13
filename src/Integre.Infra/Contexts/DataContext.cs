@@ -22,6 +22,7 @@ namespace Integre.Infra.Contexts
             modelBuilder.Configurations.Add(new CollaboratorMapping());
             modelBuilder.Configurations.Add(new UserMapping());
             modelBuilder.Configurations.Add(new RolesMapping());
+            modelBuilder.Configurations.Add(new UserRolesMapping());
         }
     }
 }

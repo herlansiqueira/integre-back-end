@@ -1,18 +1,26 @@
-﻿using System.Text;
-using FluentValidator;
+﻿using FluentValidator;
+using Integre.Domain.Commands.Inputs;
 using Integre.Shared.Entities;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Integre.Domain.Entities
 {
     public class User : Entity
     {
+
+        private readonly IList<UserRoles> _roles;
+
         protected User() { }
 
         public User(string username, string password, string confirmPassword)
         {
             Username = username;
             Password = EncryptPassword(password);
-            Active = true;
+            Active = false;
+
+            _roles = new List<UserRoles>();
 
             new ValidationContract<User>(this)
                 .AreEquals(x => x.Password, EncryptPassword(confirmPassword), "As senhas não coincidem");
@@ -21,6 +29,7 @@ namespace Integre.Domain.Entities
         public string Username { get; private set; }
         public string Password { get; private set; }
         public bool Active { get; private set; }
+        public ICollection<UserRoles> Roles => _roles.ToArray();
 
         public bool Authenticate(string username, string password)
         {
@@ -33,6 +42,13 @@ namespace Integre.Domain.Entities
 
         public void Activate() => Active = true;
         public void Deactivate() => Active = false;
+
+        public void AddRoles(UserRoles roles)
+        {
+            AddNotifications(roles.Notifications);
+            if (roles.IsValid())
+                _roles.Add(roles);
+        }
 
         private string EncryptPassword(string pass)
         {

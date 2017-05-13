@@ -1,12 +1,12 @@
 ﻿using FluentValidator;
 using Integre.Domain.Commands.Inputs;
-using Integre.Shared.Commands;
+using Integre.Domain.Commands.Results;
+using Integre.Domain.Entities;
 using Integre.Domain.Repositories;
+using Integre.Domain.Resources;
 using Integre.Domain.Services;
 using Integre.Domain.ValueObjects;
-using Integre.Domain.Entities;
-using Integre.Domain.Commands.Results;
-using Integre.Domain.Resources;
+using Integre.Shared.Commands;
 
 namespace Integre.Domain.Commands.Handlers
 {
@@ -15,11 +15,14 @@ namespace Integre.Domain.Commands.Handlers
     {
 
         private readonly ICollaboratorRepository _collaboratorRepository;
+        private readonly IRolesRepository _rolesRepository;
         private readonly IEmailService _emailService;
 
-        public CollaboratorCommandHandler(ICollaboratorRepository collaboratorRepository, IEmailService emailService)
+        public CollaboratorCommandHandler(ICollaboratorRepository collaboratorRepository,
+            IEmailService emailService, IRolesRepository rolesRepository)
         {
             _collaboratorRepository = collaboratorRepository;
+            _rolesRepository = rolesRepository;
             _emailService = emailService;
         }
 
@@ -45,6 +48,13 @@ namespace Integre.Domain.Commands.Handlers
             AddNotifications(email.Notifications);
             AddNotifications(user.Notifications);
             AddNotifications(customer.Notifications);
+
+            // Adiciona roles do usuário
+            foreach (var item in command.UserRoles)
+            {
+                var roles = _rolesRepository.Get(item.RolesCode);
+                user.AddRoles(new UserRoles(roles.Code));
+            }
 
             if (!IsValid())
                 return null;

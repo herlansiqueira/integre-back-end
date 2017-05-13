@@ -43,6 +43,7 @@
     <Compile Include="Commands\Inputs\AuthenticateUserCommand.cs" />
     <Compile Include="Commands\Inputs\RegisterCollaboratorCommand.cs" />
     <Compile Include="Commands\Inputs\RegisterRolesCommand.cs" />
+    <Compile Include="Commands\Inputs\RegisterUserRolesCommand.cs" />
     <Compile Include="Commands\Results\AnyMessageCommandResult.cs" />
     <Compile Include="Commands\Results\GetCollaboratorCommandResult.cs" />
     <Compile Include="Commands\Results\GetRolesCommandResult.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Entities\Collaborator.cs" />
     <Compile Include="Entities\Roles.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserRoles.cs" />
     <Compile Include="Enums\ECollaboratorStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICollaboratorRepository.cs" />
